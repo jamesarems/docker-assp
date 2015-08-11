@@ -5,6 +5,8 @@ MAINTAINER James PS <jamesarems@gmail.com>
 #Updating CentOS packages
 RUN yum update -y
 COPY ./start.sh /usr/bin/
+RUN rm -rf /usr/share/assp/assp.pl
+COPY ./assp.pl /usr/share/assp/
 RUN chmod +x /usr/bin/start.sh
 
 #Exposing tcp ports
