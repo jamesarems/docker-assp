@@ -1,13 +1,13 @@
-#Creating Images for PRITUNL web vpn service 
+#Creating Images for ASSP web vpn service 
 FROM jamesarems/assp:beta
 MAINTAINER James PS <jamesarems@gmail.com>
 
-#Updating Ubuntu packages
+#Updating CentOS packages
 RUN yum update -y
 COPY ./start.sh /usr/bin/
 RUN chmod +x /usr/bin/start.sh
 
-#Exposing 1194 udp tcp ports
+#Exposing tcp ports
 EXPOSE 2220
 EXPOSE 125
 EXPOSE 25
