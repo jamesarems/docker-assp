@@ -14,5 +14,9 @@ EXPOSE 2220
 EXPOSE 125
 EXPOSE 25
 
+#Adding volume
+VOLUME /usr/share/assp
+VOLUME /etc/postfix/
+
 #Running final script
 ENTRYPOINT ["/usr/bin/start.sh"]
