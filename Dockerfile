@@ -3,7 +3,7 @@ FROM jamesarems/assp:beta
 MAINTAINER James PS <jamesarems@gmail.com>
 
 #Updating CentOS packages
-RUN yum update -y
+
 COPY ./start.sh /usr/bin/
 RUN rm -rf /usr/share/assp/assp.pl
 COPY ./assp.pl /usr/share/assp/
@@ -14,5 +14,5 @@ EXPOSE 2220
 EXPOSE 125
 EXPOSE 25
 
-#Exposing Web gui port
+#Running final script
 ENTRYPOINT ["/usr/bin/start.sh"]
