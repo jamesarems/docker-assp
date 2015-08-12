@@ -14,9 +14,7 @@ This docker size contain around 2GB data that is required to run assp and perl p
 >docker run -d -privileged -p 2220:2220/tcp jamesarems/assp-latest
 
 
-#Web access
-
->http://yourhostip:2220
+#Web access yourhostip:2220
 
 #Credentials
 
@@ -33,4 +31,3 @@ Anyone who is intrested to work with Linux , ASSP and CSS are welcome.
 
 I am always trying to clear all the bugs . Please comment your suggestions.
 
-Note: This is a copy from ASSP open source project.
