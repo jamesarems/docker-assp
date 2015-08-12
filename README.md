@@ -14,7 +14,9 @@ This docker size contain around 2GB data that is required to run assp and perl p
 >docker run -d -privileged -p 2220:2220/tcp jamesarems/assp-latest
 
 
-#Web access yourhostip:2220
+#Web access 
+
+yourhostip:2220
 
 #Credentials
 
