@@ -18,7 +18,7 @@ This docker size contain around 2GB data that is required to run assp and perl p
 
 #Web access
 
-Browse http://yourhostip:2220
+>http://yourhostip:2220
 
 #Credentials
 
