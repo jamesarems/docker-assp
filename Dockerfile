@@ -6,7 +6,7 @@ MAINTAINER James PS <jamesarems@gmail.com>
 
 COPY ./start.sh /usr/bin/
 RUN rm -rf /usr/share/assp/assp.pl
-COPY ./assp.pl /usr/share/assp/
+COPY ./assp.pl /usr/share/assp/assp.pl
 RUN chmod +x /usr/bin/start.sh
 
 #Exposing tcp ports
