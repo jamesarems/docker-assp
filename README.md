@@ -1,6 +1,6 @@
 #Docker size
 
-This docker size contain around 2GB data that is required to run assp and perl packages. I will try to reduce it.
+This docker size contain around 730mb data that is required to run assp and perl packages. I will try to reduce it.
 
 #Usages
 
