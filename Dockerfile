@@ -1,4 +1,4 @@
-#Creating Images for ASSP web vpn service 
+#Creating Images for ASSP web service 
 FROM jamesarems/assp:beta
 MAINTAINER James PS <jamesarems@gmail.com>
 
