@@ -4,7 +4,7 @@ This docker size contain around 730mb data that is required to run assp and perl
 
 #Usages
 
->docker run -d -privileged -p 2220:2220/tcp jamesarems/assp-latest
+>docker run -d --privileged -p 2220:2220/tcp jamesarems/assp-latest
 
 * Do not open 25/tcp port when you are using local mail system. Please use this docker for "docker to docker" communication. You can also link this docker to any other SMTP docker. TCP port 25 is already exposed.
 * If you are not using local mail server you can easly open 25/tcp port by -p option.
